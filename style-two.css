@@ -1,0 +1,54 @@
+body{
+    height:100%;
+    background-image: url(hamster.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+
+}
+
+h1{
+    top:20%;
+    text-align: center;
+    font-size:64px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px black; /* width and color */
+    animation: switchColor infinite 5s;
+
+}
+
+@keyframes switchColor{
+    0%{
+        color:pink;
+    }
+    10%{
+        color:rgb(245, 131, 150)
+    }
+    20%{
+        color:rgb(245, 69, 98)
+    }
+    30%{
+        color:rgb(245, 0, 41)
+    }
+    40%{
+        color:rgb(245, 69, 192)
+    }
+    50%{
+        color:rgb(226, 30, 177)
+    }
+    60%{
+        color:rgb(200, 30, 235)
+    }
+    70%{
+        color:rgb(128, 73, 218)
+    }
+    80%{
+        color:rgb(81, 56, 226)
+    }
+    90%{
+        color:rgb(61, 72, 224)
+    }
+    100%{
+        color:rgb(155, 53, 70);
+    }
+}
